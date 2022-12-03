@@ -1,2 +1,7 @@
 DOMAIN,URL,PASSWORD,RELATIVE,DESCRIPTION
-info1,blank.ipynb,,https://nbviewer.org/github/tna76874/info-7-notebooks/blob/master/notebooks/,blank jupyter sheet
+p0,blank.ipynb,,https://mybinder.org/v2/gh/tna76874/info-7-notebooks/master?filepath=notebooks/,Leeres Python-Notebook
+p1,p1.ipynb,,https://mybinder.org/v2/gh/tna76874/info-7-notebooks/master?filepath=notebooks/,
+s1,https://scratch.mit.edu/projects/editor/,,,Scratch Editor 
+v1,https://yewtu.be/embed/FBUoEumkP2w,,,Erklärvideo Algorithmus
+m1,https://moodle.werkgymnasium.de/moodle/course/view.php?id=1442,,,Moodle Kurs
+skript,https://nextcloud.werkgymnasium.eu/s/m2QbnK5X6wLegFB,,,Dieses Informatik Skript
