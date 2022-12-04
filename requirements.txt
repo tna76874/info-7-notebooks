@@ -6,3 +6,4 @@ numpy==1.23.5
 pandas==1.5.2
 requests==2.28.1
 PythonTurtle==0.3.2
+mobilechelonian
