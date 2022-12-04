@@ -1,3 +1,0 @@
-DOMAIN,URL,PASSWORD,RELATIVE,DESCRIPTION
-p0,https://jupyter.org/try-jupyter/lab/,,,Python Lab
-p1,p1.ipynb,,https://mybinder.org/v2/gh/tna76874/info-7-notebooks/master?filepath=notebooks/,x und y Koordinaten
