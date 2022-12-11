@@ -21,12 +21,15 @@ COPY ./requirements.txt .
 
 RUN python3 -m pip install --no-cache-dir notebook jupyterlab jupyterhub &&\
     pip install --no-cache-dir -r requirements.txt &&\
-    pip install jupyter_contrib_nbextensions &&\
+    pip install jupyter_contrib_nbextensions ipywidgets &&\
     jupyter contrib nbextension install --user &&\
     jupyter nbextension enable varInspector/main && \
     rm -rf requirements.txt
 
-COPY ./notebooks ${HOME}/notebooks
+
+RUN rm -rf ${HOME}/work
+
+COPY ./notebooks ${HOME}/work
 
 RUN Xvfb :1 -screen 0 1600x1200x16 &
 ENV DISPLAY=:1.0
